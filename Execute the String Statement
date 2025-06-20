@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+char ch[100];
+    fgets(ch,100,stdin);
+    printf("Hai %s!\tWelcome to Programming Language...",ch);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}

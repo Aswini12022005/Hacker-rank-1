@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int a;
+float b;
+char c;
+char d[100];
+char ch[100];
+scanf("%d",&a);
+scanf("%f ",&b);
+scanf("%c ",&c);
+scanf("%s ",d);
+fgets(ch,100,stdin);
+printf("Integer is %d\n",a);
+printf("Float is %.2f\n",b);
+printf("Character is %c\n",c);
+printf("Strings are %s and %s",d,ch);
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}

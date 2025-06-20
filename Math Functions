@@ -1,0 +1,25 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    float a;
+    int s;
+    int b;
+    int p;
+    scanf("%f",&a);
+    scanf("%d",&s);
+    scanf("%d",&b);
+    scanf("%d",&p);
+    printf("%d\n",(int)floor(a));
+    printf("%d\n",(int)ceil(a));
+    printf("%d\n",(int)sqrt(s));
+    printf("%d\n",(int)pow(b,p));
+         
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
